@@ -61,9 +61,9 @@ end
 
 def turn(board) #cycles to put valid user move into [board]
   puts "Please enter 1-9:"
-  #user_char = "X"
+
   user_input = gets.strip
-  user_char = current_player(board)
+  user_char = current_player(board) #zigzags X/O based on X goes first
   index = input_to_index(user_input)
   if valid_move?(board, index)
     move(board, index, user_char)
