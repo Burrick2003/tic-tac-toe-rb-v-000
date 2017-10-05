@@ -9,8 +9,6 @@ WIN_COMBINATIONS = [
   [2, 4, 6]
 ]
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-#user_char = " "
-#index = 1
 
 def play(board)
   until over?(board) == true
