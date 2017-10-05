@@ -9,7 +9,7 @@ WIN_COMBINATIONS = [
   [2, 4, 6]
 ]
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-user_char = " "
+#user_char = " "
 #index = 1
 
 def play(board)
@@ -129,3 +129,5 @@ def winner(board) #returns winning line array
     board[win_line[0]]
   end
 end
+#Issues with lab 1)Wasn't made clear to switch user_char, that 1D array needed
+#to be extracted from 2D array, 
